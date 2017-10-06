@@ -23,11 +23,11 @@ sass:
 # Site Data
 url: # the base hostname & protocol for your site, e.g. http://example.com
 baseurl: # the subpath of your site, e.g. /blog
-title: Simple Texture
-description: "A gem-based responsive simple texture styled Jekyll theme."
-keywords: 'jekyll,theme,gem-based,blog'
-author:
-  name:
+title: Ruby Conrad
+description: "New England horror stories with a multimedia twist"
+keywords: 'speculative fiction,New England horror, ghost stories, historical fiction, author,blog'
+author: 
+  name: Ruby Conrad
   job_title:
   location:
   email:
@@ -47,12 +47,12 @@ author:
     - name: vk
       url:
 home:
-  section1: <h1>Simple Texutre</h1>
-  section2: <h2>A gem-based responsive simple texture styled Jekyll theme</h2>
-  section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
+  section1: <h1>Ruby Conrad</h1>
+  section2: <h2>Ruby writes scary multimedia narratives best experienced with the lights off and headphones on.</h2>
+  # section3: <div class="social-links"><a class="ico-github btn" href="https://github.com/yizeng/jekyll-theme-simple-texture" title="View on GitHub"></a></div>
 blog:
-  cc_license: http://creativecommons.org/licenses/by-sa/4.0/ # A link to CC License of your choice.
-  cc_license_image: /assets/images/theme/cc-by-sa.png # An image of your CC License. 
+  cc_license: https://creativecommons.org/licenses/by-nc-nd/4.0/ # A link to CC License of your choice.
+  cc_license_image: /assets/images/theme/by-nc-nd.png # An image of your CC License. 
   footer_content: A gem-based responsive simple texture styled <a href="http://jekyllrb.com/">Jekyll</a> theme.
 
 disqus:

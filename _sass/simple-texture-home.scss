@@ -80,7 +80,22 @@ textarea {
 }
 
 #section0 {
-    background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
+    // background: url('../images/theme/noisy_texture_section0-200x200.png') repeat 0 0 #F0F0F0;
+    // background: url('../images/ruby-conrad-bg.png') no-repeat left center;
+    // background-size:contain;
+    background-image: url('../images/ruby-conrad-bg.png'),
+        url('../images/theme/noisy_texture_section0-200x200.png');
+    background-repeat:no-repeat,
+        repeat;
+    background-position: left center,
+        0 0;
+    background-size: contain,
+        auto;
+
+    h2 {
+        max-width:800px;
+        margin:0 auto;
+    }
 }
 
 #section1 {
